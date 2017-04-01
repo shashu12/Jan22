@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="batchfw">
+
+    <test name="RegSet1">
+      
+     <groups>
+      <run>
+
+     <include name="smoke"/>
+     <exclude name="regression"/>
+     
+      </run>
+      </groups>  
+    
+     <classes>
+            
+            <class  name="ScenarioComponent.Scenario_Search" />
+            
+       </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

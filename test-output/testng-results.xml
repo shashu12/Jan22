@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="batchfw" duration-ms="133880" started-at="2017-03-29T13:03:32Z" finished-at="2017-03-29T13:05:46Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Scenario_Search.testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" class="ScenarioComponent.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="RegSet1" duration-ms="133880" started-at="2017-03-29T13:03:32Z" finished-at="2017-03-29T13:05:46Z">
+      <class name="ScenarioComponent.Scenario_Search">
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="66867" started-at="2017-03-29T18:33:32Z" data-provider="dp_InvalidSearch" finished-at="2017-03-29T18:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, Execute_Flag=Y, TC_ID=GB_01, Script_name=InvalidSearch, Search_Item=###$, Exp_Result=Sorry! There are no products to display., Order_Set=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="66828" started-at="2017-03-29T18:34:39Z" data-provider="dp_InvalidSearch" finished-at="2017-03-29T18:35:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, Execute_Flag=Y, TC_ID=GB_01, Script_name=InvalidSearch, Search_Item=####, Exp_Result=Sorry! There are no products to display., Order_Set=2.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+      </class> <!-- ScenarioComponent.Scenario_Search -->
+    </test> <!-- RegSet1 -->
+  </suite> <!-- batchfw -->
+</testng-results>
