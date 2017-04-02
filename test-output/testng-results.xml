@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="batchfw" duration-ms="133880" started-at="2017-03-29T13:03:32Z" finished-at="2017-03-29T13:05:46Z">
+  <suite name="Batchfw" duration-ms="88679" started-at="2017-04-02T08:07:52Z" finished-at="2017-04-02T08:09:21Z">
     <groups>
       <group name="smoke">
         <method signature="Scenario_Search.testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" class="ScenarioComponent.Scenario_Search"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="RegSet1" duration-ms="133880" started-at="2017-03-29T13:03:32Z" finished-at="2017-03-29T13:05:46Z">
+    <test name="RegSet1" duration-ms="88679" started-at="2017-04-02T08:07:52Z" finished-at="2017-04-02T08:09:21Z">
       <class name="ScenarioComponent.Scenario_Search">
-        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="66867" started-at="2017-03-29T18:33:32Z" data-provider="dp_InvalidSearch" finished-at="2017-03-29T18:34:39Z">
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="43149" started-at="2017-04-02T13:37:52Z" data-provider="dp_InvalidSearch" finished-at="2017-04-02T13:38:35Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidSearch -->
-        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="66828" started-at="2017-03-29T18:34:39Z" data-provider="dp_InvalidSearch" finished-at="2017-03-29T18:35:46Z">
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:ScenarioComponent.Scenario_Search@2a17b7b6]" name="testInvalidSearch" duration-ms="45355" started-at="2017-04-02T13:38:35Z" data-provider="dp_InvalidSearch" finished-at="2017-04-02T13:39:21Z">
           <params>
             <param index="0">
               <value>
@@ -34,5 +34,5 @@
         </test-method> <!-- testInvalidSearch -->
       </class> <!-- ScenarioComponent.Scenario_Search -->
     </test> <!-- RegSet1 -->
-  </suite> <!-- batchfw -->
+  </suite> <!-- Batchfw -->
 </testng-results>
